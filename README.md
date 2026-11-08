@@ -37,7 +37,6 @@ macOS Sequoia 15.8.2 boots on this HP Z440 with an RTX 3050 using OpenCore and t
 
 | Feature | Status |
 | --- | --- |
-| Audio ports and internal speaker | Individual checks for the internal speaker, front and rear jacks, and microphone are pending. |
 | Sleep and wake | Reliable sleep and resume remain unresolved. |
 | BAR1 in macOS | The last saved macOS BAR readback was **64 MiB**. BAR1 is the window through which the CPU accesses GPU memory. The card still has **6 GB of VRAM**. The small window limits some graphics allocations. We verified ordinary desktop use on one 1080p display. |
 | Wi-Fi and Bluetooth | The experimental MediaTek extensions loaded on an earlier boot. The EFI retains the app-managed Wi-Fi setup. Native Wi-Fi, Bluetooth, AirDrop, and long-term wireless stability remain unverified on this machine. |
