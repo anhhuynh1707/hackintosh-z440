@@ -16,7 +16,7 @@ macOS Sequoia 15.8.2 boots on this HP Z440 with an RTX 3050 using OpenCore and t
 | Bootloader | OpenCore 1.0.9 release build with OpenCanopy, booted from the USB named `1401`. The Mac model identifier is `MacPro7,1`. The EFI has the Broadwell-E CPUID override for Xeon v4. |
 | NVIDIA driver | NullMoth 2.8 installed. The last verified desktop and BAR1 results were recorded on 2.7.2. |
 
-[Windows hardware inventory](./z440-specs.png)
+![Windows hardware inventory](./z440-specs.png)
 
 ## What worked
 
@@ -29,7 +29,7 @@ macOS Sequoia 15.8.2 boots on this HP Z440 with an RTX 3050 using OpenCore and t
 | USB boot and mapping | The boot USB mounted in macOS. USBToolBox loaded, and we verified that the machine-specific USB map survived the EFI migration. We still need to check every physical port individually. |
 | Resizable BAR in Windows | GPU-Z reported ReBAR enabled and BAR1 at 8192 MiB. |
 
-[macOS desktop and System Information screenshot](./driver-in-macOS.png)
+![macOS desktop and System Information screenshot](./driver-in-macOS.png)
 
 ![Windows GPU-Z showing Resizable BAR enabled and BAR1 at 8192 MiB](./enable-resize-bar-z440_win.png)
 
